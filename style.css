@@ -1,0 +1,770 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100%3B0,300%3B0,400%3B0,500%3B0,700%3B0,900%3B1,100%3B1,300%3B1,400%3B1,500%3B1,700%3B1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  font-family: "Oswald";
+}
+header h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+header nav {
+  width: 50%;
+  height: 15vh;
+}
+header ul {
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+}
+header li {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+header a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #5b5b5b;
+  font-weight: 500;
+}
+header a:hover {
+  color: #000000;
+  font-size: 1.5rem;
+  border: solid;
+  font-weight: 900;
+}
+
+.container_background_image {
+  height: 70vh;
+  background-color: aqua;
+  background-image: url("./imagem/background.png");
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 8rem;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: repeat repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-position: top;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: center;
+}
+
+h1 {
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+p {
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 300;
+  font-size: 32px;
+}
+
+button {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: none;
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 3.6rem;
+  color: #ffffff;
+  background-color: #0016df;
+}
+
+.gestaoSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: 25vh 0;
+}
+.gestaoSection strong {
+  color: #0017e9;
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.gestaoSection h2 {
+  margin-top: 2rem;
+  color: #000000;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 2rem;
+}
+.gestaoSection p {
+  width: 474px;
+  height: 417px;
+  margin-top: 2rem;
+  color: #000000;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.gestaoSection a {
+  color: #0017e9;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.gestaoSection article {
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.gestaoSection img {
+  width: 40vw;
+}
+
+.um-solução-Section {
+  background-color: #d8d8d8;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.um-solução-Section strong {
+  color: #0017e9;
+  margin-top: 10vh;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.um-solução-Section h2 {
+  margin-bottom: 5rem;
+  color: #000000;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.um-solução-Section section {
+  margin-bottom: 15vh;
+  padding: 0;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.um-solução-Section section article {
+  background-color: #ffffff;
+  height: 53vh;
+  width: 22vw;
+  text-align: start;
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+.um-solução-Section section article img {
+  width: 100%;
+}
+.um-solução-Section section article h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.um-solução-Section section article p {
+  margin-top: 1rem;
+  margin: 0 1rem;
+  font-family: "Oswald";
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.dois-contatos-Section {
+  background-color: #ffffff;
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dois-contatos-Section .três-atendimento-Article {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.dois-contatos-Section .três-atendimento-Article h2 {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  color: #0017e9;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 2rem;
+}
+.dois-contatos-Section .três-atendimento-Article h3 {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  color: #000000;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.dois-contatos-Section .três-atendimento-Article section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.dois-contatos-Section .três-atendimento-Article section figure {
+  margin-left: 2rem;
+}
+.dois-contatos-Section .três-atendimento-Article section figure figcaption {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.dois-contatos-Section .quatro-contatos-Article {
+  width: 30vw;
+}
+.dois-contatos-Section .quatro-contatos-Article h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  color: #0017e9;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 2rem;
+}
+.dois-contatos-Section .quatro-contatos-Article h3 {
+  margin-bottom: 1rem;
+  color: #000000;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.dois-contatos-Section .quatro-contatos-Article form {
+  display: flex;
+  flex-direction: column;
+}
+.dois-contatos-Section .quatro-contatos-Article form label {
+  margin-top: 1.5rem;
+  font-family: "Oswald";
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.dois-contatos-Section .quatro-contatos-Article form input {
+  height: 5.5vh;
+  width: 23vw;
+}
+.dois-contatos-Section .quatro-contatos-Article form textarea {
+  height: 12vh;
+  width: 23vw;
+}
+.dois-contatos-Section .quatro-contatos-Article form button {
+  margin-top: 3.75rem;
+  background-color: #0017e9;
+  color: #ffffff;
+  width: 23vw;
+  height: 6.5vh;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+footer {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  background-color: #d8d8d8;
+  align-items: center;
+}
+footer p {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  header {
+    height: 10vh;
+  }
+  header h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  header nav {
+    width: 30%;
+  }
+  header a {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  header button {
+    border: 0.5px solid;
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .inicialSection h1 {
+    font-weight: 400;
+    font-size: 4rem;
+  }
+  .inicialSection p {
+    font-weight: 200;
+    font-size: 1.3rem;
+  }
+  .inicialSection button {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10rem;
+    height: 2.4rem;
+  }
+  .gestaoSection {
+    margin: 10vh 0;
+  }
+  .gestaoSection strong {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .gestaoSection h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .gestaoSection p {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .gestaoSection a {
+    font-size: 0.8rem;
+  }
+  .gestaoSection article {
+    width: 40vw;
+  }
+  .gestaoSection img {
+    width: 35vw;
+  }
+  .um-solução-Section strong {
+    margin-top: 5vh;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  .um-solução-Section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .um-solução-Section section article {
+    height: 43vh;
+    width: 22vw;
+  }
+  .um-solução-Section section article h3 {
+    font-size: 1.1rem;
+  }
+  .um-solução-Section section article p {
+    font-size: 1.1rem;
+  }
+  .contatoSection .atendimentoArticle {
+    width: 40vw;
+  }
+  .contatoSection .atendimentoArticle h2 {
+    font-size: 1.2rem;
+  }
+  .contatoSection .atendimentoArticle h3 {
+    font-size: 1rem;
+  }
+  .contatoSection .atendimentoArticle section {
+    flex-wrap: nowrap;
+  }
+  .contatoSection .atendimentoArticle section figure {
+    margin-left: 2rem;
+  }
+  .contatoSection .atendimentoArticle section figure img {
+    width: 100%;
+  }
+  .contatoSection .atendimentoArticle section figure figcaption {
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .contatoSection .contatoArticle {
+    width: 30vw;
+  }
+  .contatoSection .contatoArticle h2 {
+    font-size: 1.3rem;
+  }
+  .contatoSection .contatoArticle h3 {
+    font-size: 1rem;
+  }
+  .contatoSection .contatoArticle form label {
+    margin-top: 1rem;
+    font-family: "Oswald";
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .contatoSection .contatoArticle form input {
+    height: 5.5vh;
+    width: 23vw;
+  }
+  .contatoSection .contatoArticle form textarea {
+    height: 12vh;
+    width: 23vw;
+  }
+  .contatoSection .contatoArticle form button {
+    margin-top: 3.75rem;
+    width: 23vw;
+    height: 6.5vh;
+    font-size: 1rem;
+  }
+  footer {
+    height: 7vh;
+  }
+  footer p {
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  header {
+    height: 7vh;
+  }
+  header h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  header a {
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+  header button {
+    border: 0.3px solid;
+    height: 2.3rem;
+    width: 6rem;
+    font-size: 0.9rem;
+  }
+  .inicialSection {
+    padding-left: 4.5rem;
+  }
+  .inicialSection h1 {
+    font-weight: 400;
+    font-size: 3rem;
+  }
+  .inicialSection p {
+    font-weight: 200;
+    font-size: 1rem;
+  }
+  .inicialSection button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+    width: 8rem;
+    height: 2rem;
+  }
+  .gestaoSection {
+    margin: 10vh 0;
+  }
+  .gestaoSection strong {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .gestaoSection h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .gestaoSection p {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .gestaoSection a {
+    font-size: 0.8rem;
+  }
+  .gestaoSection article {
+    width: 40vw;
+  }
+  .gestaoSection img {
+    width: 35vw;
+  }
+  .solucoesSection strong {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .solucoesSection h2 {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+  }
+  .solucoesSection section article {
+    height: 37vh;
+    width: 22vw;
+  }
+  .solucoesSection section article h3 {
+    font-size: 0.8rem;
+  }
+  .solucoesSection section article p {
+    font-size: 0.8rem;
+  }
+  .contatoSection .atendimentoArticle {
+    width: 40vw;
+  }
+  .contatoSection .atendimentoArticle h2 {
+    font-size: 1rem;
+  }
+  .contatoSection .atendimentoArticle h3 {
+    font-size: 0.8rem;
+  }
+  .contatoSection .atendimentoArticle section {
+    flex-wrap: nowrap;
+  }
+  .contatoSection .atendimentoArticle section figure {
+    margin-left: 1rem;
+  }
+  .contatoSection .atendimentoArticle section figure img {
+    width: 100%;
+  }
+  .contatoSection .atendimentoArticle section figure figcaption {
+    font-weight: 500;
+    font-size: 0.6rem;
+  }
+  .contatoSection .contatoArticle {
+    width: 40vw;
+  }
+  .contatoSection .contatoArticle h2 {
+    font-size: 0.8rem;
+  }
+  .contatoSection .contatoArticle h3 {
+    font-size: 0.6rem;
+  }
+  .contatoSection .contatoArticle form label {
+    margin-top: 0.3rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+  .contatoSection .contatoArticle form input {
+    height: 3vh;
+    width: 100%;
+  }
+  .contatoSection .contatoArticle form textarea {
+    height: 12vh;
+    width: 100%;
+  }
+  .contatoSection .contatoArticle form button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 4vh;
+    font-size: 0.7rem;
+  }
+  footer {
+    height: 5vh;
+  }
+  footer p {
+    font-weight: 600;
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    height: 5vh;
+  }
+  header h2 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  header a {
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
+  header button {
+    border: 0.1px solid;
+    height: 1.5rem;
+    width: 3.5rem;
+    font-size: 0.6rem;
+  }
+  .inicialSection {
+    align-items: center;
+    padding: 0;
+  }
+  .inicialSection h1 {
+    font-weight: 400;
+    font-size: 3.5rem;
+  }
+  .inicialSection p {
+    font-weight: 200;
+    font-size: 1.5rem;
+  }
+  .inicialSection button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 9rem;
+    height: 2.5rem;
+  }
+  .gestaoSection {
+    flex-direction: column;
+    margin: 10vh 0;
+  }
+  .gestaoSection strong {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .gestaoSection h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .gestaoSection p {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .gestaoSection a {
+    font-size: 0.8rem;
+  }
+  .gestaoSection article {
+    width: 70vw;
+  }
+  .gestaoSection img {
+    width: 70vw;
+  }
+  .solucoesSection {
+    height: 130vh;
+  }
+  .solucoesSection strong {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .solucoesSection h2 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .solucoesSection section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .solucoesSection section article {
+    height: 35vh;
+    width: 60vw;
+    margin-bottom: 2rem;
+  }
+  .solucoesSection section article h3 {
+    font-size: 0.8rem;
+  }
+  .solucoesSection section article p {
+    font-size: 0.8rem;
+  }
+  .contatoSection {
+    flex-direction: row;
+    height: 140vh;
+    align-items: center;
+  }
+  .contatoSection .atendimentoArticle {
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+  }
+  .contatoSection .atendimentoArticle h2 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  .contatoSection .atendimentoArticle h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  .contatoSection .atendimentoArticle section {
+    width: 40vw;
+    flex-wrap: wrap;
+  }
+  .contatoSection .atendimentoArticle section figure {
+    margin-left: 0;
+  }
+  .contatoSection .atendimentoArticle section figure img {
+    width: 100%;
+  }
+  .contatoSection .atendimentoArticle section figure figcaption {
+    font-weight: 500;
+    font-size: 0.6rem;
+  }
+  .contatoSection .contatoArticle {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contatoSection .contatoArticle h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .contatoSection .contatoArticle h3 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .contatoSection .contatoArticle form {
+    width: 40vw;
+  }
+  .contatoSection .contatoArticle form label {
+    margin-top: 0.3rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+  .contatoSection .contatoArticle form input {
+    height: 3vh;
+    width: 100%;
+  }
+  .contatoSection .contatoArticle form textarea {
+    height: 12vh;
+    width: 100%;
+  }
+  .contatoSection .contatoArticle form button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 4vh;
+    font-size: 0.7rem;
+  }
+  footer {
+    height: 5vh;
+  }
+  footer p {
+    font-weight: 600;
+    font-size: 0.45rem;
+  }
+}/*# sourceMappingURL=style.css.map */
