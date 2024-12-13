@@ -355,27 +355,28 @@ footer p {
     height: 2.4rem;
   }
   .gestaoSection {
-    margin: 10vh 0;
+    height: 100vh;
+    margin: 18vh 0;
   }
   .gestaoSection strong {
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   .gestaoSection h2 {
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
   }
   .gestaoSection p {
-    width: 100%;
-    height: 100%;
-    margin-top: 1rem;
-    font-size: 0.8rem;
+    width: 350px;
+    height: 300px;
+    margin-top: 2rem;
+    font-size: 1.1rem;
   }
   .gestaoSection a {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
   .gestaoSection article {
-    width: 40vw;
+    width: 28vw;
   }
   .gestaoSection img {
     width: 35vw;
@@ -399,53 +400,53 @@ footer p {
   .um-solução-Section section article p {
     font-size: 1.1rem;
   }
-  .contatoSection .atendimentoArticle {
+  .dois-contatos-Section .três-atendimento-Article {
     width: 40vw;
   }
-  .contatoSection .atendimentoArticle h2 {
+  .dois-contatos-Section .três-atendimento-Article h2 {
     font-size: 1.2rem;
   }
-  .contatoSection .atendimentoArticle h3 {
+  .dois-contatos-Section .três-atendimento-Article h3 {
     font-size: 1rem;
   }
-  .contatoSection .atendimentoArticle section {
+  .dois-contatos-Section .três-atendimento-Article section {
     flex-wrap: nowrap;
   }
-  .contatoSection .atendimentoArticle section figure {
+  .dois-contatos-Section .três-atendimento-Article section figure {
     margin-left: 2rem;
   }
-  .contatoSection .atendimentoArticle section figure img {
+  .dois-contatos-Section .três-atendimento-Article section figure img {
     width: 100%;
   }
-  .contatoSection .atendimentoArticle section figure figcaption {
+  .dois-contatos-Section .três-atendimento-Article section figure figcaption {
     font-family: "Oswald";
     font-weight: 500;
     font-size: 1rem;
   }
-  .contatoSection .contatoArticle {
+  .dois-contatos-Section .quatro-contatos-Article {
     width: 30vw;
   }
-  .contatoSection .contatoArticle h2 {
+  .dois-contatos-Section .quatro-contatos-Article h2 {
     font-size: 1.3rem;
   }
-  .contatoSection .contatoArticle h3 {
+  .dois-contatos-Section .quatro-contatos-Article h3 {
     font-size: 1rem;
   }
-  .contatoSection .contatoArticle form label {
+  .dois-contatos-Section .quatro-contatos-Article form label {
     margin-top: 1rem;
     font-family: "Oswald";
     font-weight: 300;
     font-size: 1rem;
   }
-  .contatoSection .contatoArticle form input {
+  .dois-contatos-Section .quatro-contatos-Article form input {
     height: 5.5vh;
     width: 23vw;
   }
-  .contatoSection .contatoArticle form textarea {
+  .dois-contatos-Section .quatro-contatos-Article form textarea {
     height: 12vh;
     width: 23vw;
   }
-  .contatoSection .contatoArticle form button {
+  .dois-contatos-Section .quatro-contatos-Article form button {
     margin-top: 3.75rem;
     width: 23vw;
     height: 6.5vh;
@@ -541,51 +542,51 @@ footer p {
   .solucoesSection section article p {
     font-size: 0.8rem;
   }
-  .contatoSection .atendimentoArticle {
+  .dois-contatos-Section .três-atendimento-Article {
     width: 40vw;
   }
-  .contatoSection .atendimentoArticle h2 {
+  .dois-contatos-Section .três-atendimento-Article h2 {
     font-size: 1rem;
   }
-  .contatoSection .atendimentoArticle h3 {
+  .dois-contatos-Section .três-atendimento-Article h3 {
     font-size: 0.8rem;
   }
-  .contatoSection .atendimentoArticle section {
+  .dois-contatos-Section .três-atendimento-Article section {
     flex-wrap: nowrap;
   }
-  .contatoSection .atendimentoArticle section figure {
+  .dois-contatos-Section .três-atendimento-Article section figure {
     margin-left: 1rem;
   }
-  .contatoSection .atendimentoArticle section figure img {
+  .dois-contatos-Section .três-atendimento-Article section figure img {
     width: 100%;
   }
-  .contatoSection .atendimentoArticle section figure figcaption {
+  .dois-contatos-Section .três-atendimento-Article section figure figcaption {
     font-weight: 500;
     font-size: 0.6rem;
   }
-  .contatoSection .contatoArticle {
+  .dois-contatos-Section .quatro-contatos-Article {
     width: 40vw;
   }
-  .contatoSection .contatoArticle h2 {
+  .dois-contatos-Section .quatro-contatos-Article h2 {
     font-size: 0.8rem;
   }
-  .contatoSection .contatoArticle h3 {
+  .dois-contatos-Section .quatro-contatos-Article h3 {
     font-size: 0.6rem;
   }
-  .contatoSection .contatoArticle form label {
+  .dois-contatos-Section .quatro-contatos-Article form label {
     margin-top: 0.3rem;
     font-weight: 300;
     font-size: 0.8rem;
   }
-  .contatoSection .contatoArticle form input {
+  .dois-contatos-Section .quatro-contatos-Article form input {
     height: 3vh;
     width: 100%;
   }
-  .contatoSection .contatoArticle form textarea {
+  .dois-contatos-Section .quatro-contatos-Article form textarea {
     height: 12vh;
     width: 100%;
   }
-  .contatoSection .contatoArticle form button {
+  .dois-contatos-Section .quatro-contatos-Article form button {
     margin-top: 2rem;
     width: 100%;
     height: 4vh;
@@ -664,97 +665,97 @@ footer p {
   .gestaoSection img {
     width: 70vw;
   }
-  .solucoesSection {
+  .um-solução-Section {
     height: 130vh;
   }
-  .solucoesSection strong {
+  .um-solução-Section strong {
     margin-top: 0;
     font-weight: 500;
     font-size: 1rem;
   }
-  .solucoesSection h2 {
+  .um-solução-Section h2 {
     margin-bottom: 1rem;
     font-size: 1rem;
   }
-  .solucoesSection section {
+  .um-solução-Section section {
     flex-direction: column;
     align-items: center;
   }
-  .solucoesSection section article {
+  .um-solução-Section section article {
     height: 35vh;
     width: 60vw;
     margin-bottom: 2rem;
   }
-  .solucoesSection section article h3 {
+  .um-solução-Section section article h3 {
     font-size: 0.8rem;
   }
-  .solucoesSection section article p {
+  .um-solução-Section section article p {
     font-size: 0.8rem;
   }
-  .contatoSection {
+  .dois-contatos-Section {
     flex-direction: row;
     height: 140vh;
     align-items: center;
   }
-  .contatoSection .atendimentoArticle {
+  .dois-contatos-Section .três-atendimento-Article {
     justify-content: center;
     align-items: center;
     width: 65vw;
   }
-  .contatoSection .atendimentoArticle h2 {
+  .dois-contatos-Section .três-atendimento-Article h2 {
     margin: 0;
     font-size: 1.3rem;
   }
-  .contatoSection .atendimentoArticle h3 {
+  .dois-contatos-Section .três-atendimento-Article h3 {
     margin: 0;
     font-size: 1.1rem;
   }
-  .contatoSection .atendimentoArticle section {
+  .dois-contatos-Section .três-atendimento-Article section {
     width: 40vw;
     flex-wrap: wrap;
   }
-  .contatoSection .atendimentoArticle section figure {
+  .dois-contatos-Section .três-atendimento-Article section figure {
     margin-left: 0;
   }
-  .contatoSection .atendimentoArticle section figure img {
+  .dois-contatos-Section .três-atendimento-Article section figure img {
     width: 100%;
   }
-  .contatoSection .atendimentoArticle section figure figcaption {
+  .dois-contatos-Section .três-atendimento-Article section figure figcaption {
     font-weight: 500;
     font-size: 0.6rem;
   }
-  .contatoSection .contatoArticle {
+  .dois-contatos-Section .quatro-contatos-Article {
     width: 65vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .contatoSection .contatoArticle h2 {
+  .dois-contatos-Section .quatro-contatos-Article h2 {
     font-size: 1.2rem;
     text-align: center;
   }
-  .contatoSection .contatoArticle h3 {
+  .dois-contatos-Section .quatro-contatos-Article h3 {
     text-align: center;
     font-size: 1rem;
   }
-  .contatoSection .contatoArticle form {
+  .dois-contatos-Section .quatro-contatos-Article form {
     width: 40vw;
   }
-  .contatoSection .contatoArticle form label {
+  .dois-contatos-Section .quatro-contatos-Article form label {
     margin-top: 0.3rem;
     font-weight: 300;
     font-size: 0.8rem;
   }
-  .contatoSection .contatoArticle form input {
+  .dois-contatos-Section .quatro-contatos-Article form input {
     height: 3vh;
     width: 100%;
   }
-  .contatoSection .contatoArticle form textarea {
+  .dois-contatos-Section .quatro-contatos-Article form textarea {
     height: 12vh;
     width: 100%;
   }
-  .contatoSection .contatoArticle form button {
+  .dois-contatos-Section .quatro-contatos-Article form button {
     margin-top: 2rem;
     width: 100%;
     height: 4vh;

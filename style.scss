@@ -414,6 +414,8 @@ header{
       }
 
       button {
+
+        //border: solid black;
         margin-left: 1rem;
         margin-top: 1rem;
         font-weight: 400;
@@ -423,35 +425,34 @@ header{
       }
     }
   
-   
-  .gestaoSection {
-    margin: 10vh 0;
-    strong {
-      font-weight: 500;
-      font-size: 0.9rem;
+    .gestaoSection{
+      height: 100vh;
+      margin: 18vh 0;
+      strong {
+        font-weight: 500;
+        font-size: 1.2rem;
+      }
+      h2 {
+        margin-top: 1rem;
+        font-size: 1.6rem;
+      }
+      p {
+        width: 350px;
+        height: 300px;
+        margin-top: 2rem;
+        font-size: 1.1rem;
+      }
+      a {
+        font-size: 1.1rem;
+      }
+      article {
+        width: 28vw;
+      }
+      img {
+        width: 35vw;
+      }
     }
-    h2 {
-      margin-top: 1rem;
-      font-size: 1.1rem;
-    }
-    p {
-      width: 100%;
-      height: 100%;
-      margin-top: 1rem;
-      font-size: 0.8rem;
-    }
-    a {
-      font-size: 0.8rem;
-    }
-    article {
-      width: 40vw;
-    }
-    img {
-      width: 35vw;
-    }
-  }
-
-  
+    
     .um-solução-Section{
       strong {
         margin-top: 5vh;
@@ -479,8 +480,8 @@ header{
       }
     }
   
-    .contatoSection {
-      .atendimentoArticle {
+    .dois-contatos-Section{
+      .três-atendimento-Article{
         width: 40vw;
         h2 {
           font-size: 1.2rem;
@@ -503,7 +504,7 @@ header{
           }
         }
       }
-      .contatoArticle {
+     .quatro-contatos-Article{
         width: 30vw;
         h2 {
           font-size: 1.3rem;
@@ -562,7 +563,7 @@ header{
       width: 6rem;
       font-size: 0.9rem;
     }
-  //483>>
+
     .inicialSection {
       padding-left: 4.5rem;
       h1 {
@@ -634,8 +635,8 @@ header{
       }
     }
   
-    .contatoSection {
-      .atendimentoArticle {
+      .dois-contatos-Section{
+       .três-atendimento-Article{
         width: 40vw;
         h2 {
           font-size: 1rem;
@@ -657,7 +658,7 @@ header{
           }
         }
       }
-      .contatoArticle {
+      .quatro-contatos-Article{
         width: 40vw;
         h2 {
           font-size: 0.8rem;
@@ -716,7 +717,7 @@ header{
       font-size: 0.6rem;
     }
   
-    .inicialSection {
+    .inicialSection{
       align-items: center;
       padding: 0;
       h1 {
@@ -737,7 +738,7 @@ header{
       }
     }
   
-    .gestaoSection {
+    .gestaoSection{
       flex-direction: column;
       margin: 10vh 0;
       strong {
@@ -765,7 +766,7 @@ header{
       }
     }
   
-    .solucoesSection {
+    .um-solução-Section{
       height: 130vh;
       strong {
         margin-top: 0;
@@ -793,30 +794,37 @@ header{
       }
     }
   
-    .contatoSection {
+    .dois-contatos-Section{
       flex-direction: row;
       height: 140vh;
       align-items: center;
-      .atendimentoArticle {
+
+      .três-atendimento-Article{
         justify-content: center;
         align-items: center;
         width: 65vw;
+
         h2 {
           margin: 0;
           font-size: 1.3rem;
         }
+
         h3 {
           margin: 0;
           font-size: 1.1rem;
         }
+
         section {
           width: 40vw;
           flex-wrap: wrap;
+
           figure {
             margin-left: 0;
+
             img {
               width: 100%;
             }
+
             figcaption {
               font-weight: 500;
               font-size: 0.6rem;
@@ -824,7 +832,7 @@ header{
           }
         }
       }
-      .contatoArticle {
+      .quatro-contatos-Article {
         width: 65vw;
         display: flex;
         flex-direction: column;
